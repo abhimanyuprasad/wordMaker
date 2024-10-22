@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Maker Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Word Maker Challenge</h1>
+  <div id="input-section">
+    <input type="text" id="letters-input" placeholder="Enter letters (e.g., abcdef)">
+    <button id="start-game">Start Game</button>
+  </div>
+  <div id="game-section" style="display: none;">
+    <p>Make words using these letters: <span id="game-letters"></span></p>
+    <input type="text" id="word-input" placeholder="Enter a word">
+    <button id="submit-word">Submit Word</button>
+    <ul id="word-list"></ul>
+    <button id="end-game">End Game</button>
+  </div>
+  <div id="result-section" style="display: none;">
+    <h2>Game Over!</h2>
+    <p>Your score: <span id="score"></span>%</p>
+    <p>Words you found: <span id="found-words"></span></p>
+    <p>All possible words: <span id="all-words"></span></p>
+    <button id="play-again">Play Again</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

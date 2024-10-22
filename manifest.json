@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Word Maker Challenge",
+  "version": "1.0",
+  "description": "Make words from given letters and test your vocabulary!",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
