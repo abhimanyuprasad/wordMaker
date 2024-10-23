@@ -9,7 +9,7 @@ const dictionary = [
   'lot','tap','cow','lit','tip','cry','let','top','cab','lay','tug','can','mat','tow','dad','man','toe','dab','mad','tan','dam','mug',
   'ten','did','mix','two','dug','map','use','den','mum','van','dot','mud','vet','dip','mom','was','day','may','wet','ear','met','win',
   'eye','net','won','eat','new','wig','end','nap','war','elf','now','why','egg','nod','who','far','net','way','fat','not','wow','few',
-  'nut','you','fan','oar','yes','fun','one','yak','fit','out','yet','fin','owl','zip','fox','old','zap',
+  'nut','you','fan','oar','yes','fun','one','yak','fit','out','yet','fin','owl','zip','fox','old','zap', 'tearful'
   // Add more words as needed
 ];
 
